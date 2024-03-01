@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    background-color:#f4f3ef ;
+    width: 100%;
+    height: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imgLogo{
+    width: 240px;
+    padding: 0;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  color: #bea279;
+  font-size: 18px;
+  height: 42px;
+}
+.opcaoMenu{
+padding-left: 36px;
+margin-bottom: 16px;
+margin-left: 32px;
+transition: all 0.2s ease-in-out;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-weight:normal;
+height: 36px;  
+
+}
+.opcaoMenu:hover{
+border-bottom: 2px solid #b1966c;
+}
+.opcao1:hover{
+    background-image: url(/imgHome.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 26px;
+}
+.opcao2:hover{
+    background-image: url(/imgFuncionarios.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 26px;
+}
+.opcao3:hover{
+    background-image: url(/imgClientes.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 26px;
+}
+.opcao4:hover{
+    background-image: url(/imgCases.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 26px;
+}
+.opcao5:hover{
+    background-image: url(/imgContato.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 26px;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background-color:#b1966c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+.politica{
+    cursor: pointer;
+}
+
+
+.redesSociais{
+    width: 150px;
+}
+main{
+height: auto;
+
+}
+.titulo_acordeon{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 8px;
+
+}
+
+
+.imagem_banner
+{
+    height: 1100px;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.banner{
+    font-family: "Montserrat", sans-serif;
+}
+
+.banner_fixo{
+    width: 100%;
+    height: 300px;
+    position:static;
+    background-image: url(/banner_fixo.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.5;
+}
+
+.container_noticias{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+
+    
+}
+
+.noticias_home{
+width: 400px;
+height: 420px;
+margin: 24px;
+box-sizing: border-box;
+padding: 8px;
+text-align: center;
+cursor: pointer;
+transition: all 0.08s ease-in;
+}
+
+.noticias_home:hover{
+border-bottom: 2px solid #b1966c;
+}
+
+.titulo_noticia{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.img_noticia
+{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    padding: 8px;
+}
