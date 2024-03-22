@@ -82,6 +82,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     padding: 24px;
+    color: white;
 }
 .politica{
     cursor: pointer;
@@ -98,9 +99,10 @@ height: auto;
 .titulo_acordeon{
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     padding: 8px;
+    margin-top: 8px;
 
 }
 
@@ -120,7 +122,7 @@ height: auto;
     width: 100%;
     height: 300px;
     position:static;
-    background-image: url(/banner_fixo.jpg);
+    background-image: url(/banner_fixo.png);
     background-repeat: no-repeat;
     background-position:center ;
     background-size: cover;
@@ -140,31 +142,94 @@ height: auto;
     
 }
 
-.noticias_home{
-width: 400px;
-height: 420px;
-margin: 24px;
-box-sizing: border-box;
-padding: 8px;
-text-align: center;
-cursor: pointer;
-transition: all 0.08s ease-in;
+.card{
+    padding: 6px;
+    margin: 18px;
+    width: auto;
+    font-family: "Montserrat", sans-serif;
+}
+.card-img-top{
+    width: max-content;
 }
 
-.noticias_home:hover{
-border-bottom: 2px solid #b1966c;
+.card-body{
+    width: auto;
+}
+.accordion{
+    padding: 24px;
+    width: 800px;
+    margin: 0 auto;
 }
 
-.titulo_noticia{
-    font-size: 18px;
-    font-weight: bold;
-    padding: 2px;
+.accordion{
+    font-family: "Montserrat", sans-serif;
+
 }
 
-.img_noticia
-{
+.formulario_contato{
     width: 100%;
-    height: 250px;
-    border-radius: 10px;
+    height: auto;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+
+}
+.formulario{
+display: flex;
+justify-content: center;
+}
+
+label{
+    display: block;
     padding: 8px;
+    font-size: 18px;
+    font-weight:500;
+}
+input{
+    display: block;
+    margin: 6px;
+    width: 350px;
+    text-align: center;
+    border: none;
+border-bottom: 2px solid #b1966c;
+border-radius: 2px;
+outline: none;
+}
+
+.btn_enviar_contato{
+    margin: 12px;
+    text-align: center;
+    width: 180px;
+    height: 56px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #bea279;
+    color: white;
+    transition: all ease-in-out 0.1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn_enviar_contato:hover{
+    background-image: url(/favicon.PNG);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:56px;
+}
+
+.tela_envio_contato{
+     font-family: "Montserrat", sans-serif;
+   
+}
+
+.card-title{
+    font-weight: 600;
 }
