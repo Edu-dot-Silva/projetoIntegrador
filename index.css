@@ -44,31 +44,31 @@ height: 36px;
 border-bottom: 2px solid #b1966c;
 }
 .opcao1:hover{
-    background-image: url(/imgHome.png);
+    background-image: url(./imgHome.png);
     background-repeat: no-repeat;
     background-position:left;
     background-size: 26px;
 }
 .opcao2:hover{
-    background-image: url(/imgFuncionarios.png);
+    background-image: url(./imgFuncionarios.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 26px;
 }
 .opcao3:hover{
-    background-image: url(/imgClientes.png);
+    background-image: url(./imgClientes.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 26px;
 }
 .opcao4:hover{
-    background-image: url(/imgCases.png);
+    background-image: url(./imgCases.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 26px;
 }
 .opcao5:hover{
-    background-image: url(/imgContato.png);
+    background-image: url(./imgContato.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 26px;
@@ -110,8 +110,8 @@ height: auto;
 .imagem_banner
 {
     height: 1100px;
-    padding: 12px;
-    border-radius: 20px;
+    padding: 50px;
+    border-radius: 60px;
 }
 
 .banner{
@@ -122,7 +122,7 @@ height: auto;
     width: 100%;
     height: 300px;
     position:static;
-    background-image: url(/banner_fixo.png);
+    background-image: url(./banner_fixo.png);
     background-repeat: no-repeat;
     background-position:center ;
     background-size: cover;
@@ -219,7 +219,7 @@ outline: none;
 }
 
 .btn_enviar_contato:hover{
-    background-image: url(/favicon.PNG);
+    background-image: url(./favicon.PNG);
     background-position: right;
     background-repeat: no-repeat;
     background-size:56px;
@@ -233,3 +233,4 @@ outline: none;
 .card-title{
     font-weight: 600;
 }
+
